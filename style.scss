@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: black; */
+    display: flex;
+     flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.crissCrossContainer{
+    max-width: 60px;
+    display: flex;
+    flex-direction: column;
+    .rowOne,.rowTwo,.rowThree{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.tableData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    font-size: 1.5em;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+
+#one{
+   border-width: 0 10px 10px 0;
+    
+}
+#two{
+    border-width:0 10px 10px 10px;  
+}
+
+#three{
+    border-width:0 0px 10px 10px;    
+}
+
+
+#four{
+    border-width:10px 10px 10px 0px;
+    
+}
+
+#five{
+    border-width:10px;
+    
+}
+
+#six{
+    border-width:10px 0px 10px 10px;
+    
+}
+#seven{
+    border-width:10px 10px 0px 0px;
+    
+}
+
+
+#eight{
+    border-width:10px 10px 0px 10px;
+    
+}
+
+
+#nine{
+    border-width:10px 0px 0px 10px;
+    
+}
